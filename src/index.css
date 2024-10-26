@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  color : #fff
+}
+body {
+  background-color:  #111;
+}
+#taskList::-webkit-scrollbar {
+  display: none;
+}
+#all-tasks::-webkit-scrollbar {
+  display:none;
+}
+#task-list::-webkit-scrollbar{
+  display: none;
+}
+.task-list{
+  position: relative;
+}
+
+
+.task-icon {
+  transition: transform 0.6s ease;
+}
+
+
+.task-icon:hover {
+  transform: rotate(360deg);
+}
+#employee{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.icon-box{
+  position:relative;
+  bottom : 38px;  
+}
